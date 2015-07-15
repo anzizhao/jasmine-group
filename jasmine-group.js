@@ -35,6 +35,7 @@
     } else {
         console.warn('[Error] Failed to retrieve group settings');
     }
+
     function executeGroupsTest(){
         if (Object.keys(window.suitList).length != 0) {
             var _j, _k, suitObject;
